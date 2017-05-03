@@ -13,7 +13,7 @@ let sctringExpression6 = 'hic dicta, omnis perspiciatis eius';
 
 console.time('string');
 
-switch (sctringExpression4) {
+switch (sctringExpression5) {
   case 'Lorem ipsum dolor sit amet':          console.log('1'); console.timeEnd('string'); break;
   case 'consectetur adipisicing elit':        console.log('2'); console.timeEnd('string'); break;
   case 'Reiciendis consectetur quam':         console.log('3'); console.timeEnd('string'); break;
@@ -38,7 +38,7 @@ const constExpression6 = 'hic dicta, omnis perspiciatis eius';
 
 console.time('const');
 
-switch (constExpression4) {
+switch (constExpression5) {
   case constExpression1: console.log('1'); console.timeEnd('const'); break;
   case constExpression2: console.log('2'); console.timeEnd('const'); break;
   case constExpression3: console.log('3'); console.timeEnd('const'); break;
